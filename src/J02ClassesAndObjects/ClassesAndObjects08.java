@@ -23,12 +23,11 @@ public class ClassesAndObjects08 {
             if(day.name().equals(value)) {
                 return true;
             }
-            return false;
         }
-        return true;
+        return false;
     }
 
     public static void main(String[] args) {
-        System.out.println(isDayOfWeek("WEDNESDAY"));
+        System.out.println(isDayOfWeek("WEDNESDAE"));
     }
 }
