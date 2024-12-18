@@ -21,5 +21,8 @@ public class Functions04 {
 
     public static void main(String[] args) {
         System.out.println(generateAlphabet('A', 'Z'));
+//        StringBuffer abc = new StringBuffer("xyzzzz");
+//        abc.append("poiu");
+//        System.out.println(abc);
     }
 }
