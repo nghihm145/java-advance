@@ -9,12 +9,14 @@ Output: the value of hypotenuse
 Execution time limit: 1 second
  */
 public class Functions02 {
+
+    public static void main(String[] args) {
+        System.out.println(calculateHypotenuse(3, 4));
+    }
+
     static int calculateHypotenuse(int leg1, int leg2) {
         int sum = (leg1 * leg1) + (leg2 * leg2);
         return (int) Math.sqrt(sum);
     }
 
-    public static void main(String[] args) {
-        System.out.println(calculateHypotenuse(3, 4));
-    }
 }
