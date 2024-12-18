@@ -14,8 +14,8 @@ import java.util.Scanner;
  */
 public class Functions03 {
     public static void main(String[] args) {
-        Scanner reader = new Scanner(System.in);
-        int n = reader.nextInt();
+        Scanner times = new Scanner(System.in);
+        int n = times.nextInt();
         for (int i = 1; i <= n; i++) {
             printOut();
         }
