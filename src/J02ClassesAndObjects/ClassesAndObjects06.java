@@ -15,19 +15,45 @@ Execution time limit: 1 second
  */
 public class ClassesAndObjects06 {
     public static void main(String[] args) {
-        Scanner reader = new Scanner(System.in);
         Triangle triangle = new Triangle();
-        triangle.side1 = reader.nextInt();
-        triangle.side2 = reader.nextInt();
-        triangle.side3 = reader.nextInt();
+        triangle.setSide1(4);
+        triangle.setSide2(5);
+        triangle.setSide3(7);
         System.out.println(triangle.result());
     }
 }
 
 class Triangle {
+    public int getSide1() {
+        return side1;
+    }
+
+    public void setSide1(int side1) {
+        this.side1 = side1;
+    }
+
+    public int getSide2() {
+        return side2;
+    }
+
+    public void setSide2(int side2) {
+        this.side2 = side2;
+    }
+
+    public int getSide3() {
+        return side3;
+    }
+
+    public void setSide3(int side3) {
+        this.side3 = side3;
+    }
+
     public int side1;
     public int side2;
     public int side3;
+
+
+
     public String result() {
         if (side1 == side2 || side2 == side3) {
             return "The triangle is an isosceles triangle";
