@@ -16,7 +16,9 @@ public class Collections12 {
     public static int removeAll(int[] list, int element) {
         List<Integer> aList = new ArrayList<>();
         for (int i : list) {
-            aList.add(i);
+            if(i > 5){
+              aList.add(i);
+            }
         }
         List<Integer> bList = new ArrayList<>();
         bList.add(element);
