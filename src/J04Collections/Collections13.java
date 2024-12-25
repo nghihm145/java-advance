@@ -32,6 +32,11 @@ public class Collections13 {
         for (int i = 100; i >= 0; --i){
             System.out.println(i);
         }
+        int i = 0;
+        do {
+            System.out.println(i);
+            i++;
+        }while (i<=100);
 
     }
 }
